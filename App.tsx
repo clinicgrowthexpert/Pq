@@ -325,7 +325,7 @@ export default function App() {
           ))}
         </div>
       </section>
-      <section style={{ padding: "40px 20px", textAlign: "center" }}>
+     style={{ padding: "40px 20px", textAlign: "center" }}>
   <h2 style={{ fontSize: "2.2rem", fontWeight: "bold", marginBottom: "10px", color: "#ffffff" }}>Meet Our Team</h2>
   <p style={{ color: "#94a3b8", marginBottom: "35px", fontSize: "1.1rem" }}>The experts dedicated to your clinic's success</p>
 
@@ -406,6 +406,7 @@ export default function App() {
           </FadeIn>
         </div>
       </section>
+  
     {/* Footer */}
     <footer className="border-t border-white/10 py-8 text-center text-gray-400">
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
