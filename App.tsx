@@ -325,6 +325,31 @@ export default function App() {
           ))}
         </div>
       </section>
+      <h2>Meet Our Team</h2>
+  <p>Our experts dedicated to growing your business</p>
+
+  <div style={{display: "flex", justifyContent: "center", gap: "20px", flexWrap: "wrap"}}>
+
+    <div style={{background: "#0f172a", padding: "20px", borderRadius: "12px", width: "250px"}}>
+      <img src="https://via.placeholder.com/100" style={{borderRadius: "50%"}} />
+      <h3>Alok</h3>
+      <p>Founder & Web Developer</p>
+      <p>Helping clinics grow online</p>
+    </div>
+
+    <div style={{background: "#0f172a", padding: "20px", borderRadius: "12px", width: "250px"}}>
+      <img src="https://via.placeholder.com/100" style={{borderRadius: "50%"}} />
+      <h3>Rahul</h3>
+      <p>SEO Specialist</p>
+      <p>Google ranking expert</p>
+    </div>
+
+    <div style={{background: "#0f172a", padding: "20px", borderRadius: "12px", width: "250px"}}>
+      <img src="https://via.placeholder.com/100" style={{borderRadius: "50%"}} />
+      <h3>Aman</h3>
+      <p>Marketing Expert</p>
+      <p>Lead generation specialist</p>
+    </div>
 
       {/* Contact & Socials */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
@@ -366,31 +391,6 @@ export default function App() {
           </FadeIn>
         </div>
       </section>
-  <h2>Meet Our Team</h2>
-  <p>Our experts dedicated to growing your business</p>
-
-  <div style={{display: "flex", justifyContent: "center", gap: "20px", flexWrap: "wrap"}}>
-
-    <div style={{background: "#0f172a", padding: "20px", borderRadius: "12px", width: "250px"}}>
-      <img src="https://via.placeholder.com/100" style={{borderRadius: "50%"}} />
-      <h3>Alok</h3>
-      <p>Founder & Web Developer</p>
-      <p>Helping clinics grow online</p>
-    </div>
-
-    <div style={{background: "#0f172a", padding: "20px", borderRadius: "12px", width: "250px"}}>
-      <img src="https://via.placeholder.com/100" style={{borderRadius: "50%"}} />
-      <h3>Rahul</h3>
-      <p>SEO Specialist</p>
-      <p>Google ranking expert</p>
-    </div>
-
-    <div style={{background: "#0f172a", padding: "20px", borderRadius: "12px", width: "250px"}}>
-      <img src="https://via.placeholder.com/100" style={{borderRadius: "50%"}} />
-      <h3>Aman</h3>
-      <p>Marketing Expert</p>
-      <p>Lead generation specialist</p>
-    </div>
     {/* Footer */}
     <footer className="border-t border-white/10 py-8 text-center text-gray-400">
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
