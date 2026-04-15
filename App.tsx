@@ -331,7 +331,6 @@ export default function App() {
 
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "25px" }}>
           
-          {/* Alok Card */}
           <div style={{ background: "rgba(255, 255, 255, 0.05)", border: "1px solid rgba(255, 255, 255, 0.1)", borderRadius: "20px", padding: "30px", width: "100%", maxWidth: "340px", backdropFilter: "blur(15px)" }}>
             <div style={{ width: "80px", height: "80px", background: "linear-gradient(135deg, #1e293b, #0f172a)", borderRadius: "50%", margin: "0 auto 20px", display: "flex", alignItems: "center", justifyContent: "center", border: "2px solid #00f2fe" }}>
               <span style={{ fontSize: "2rem" }}>👤</span>
@@ -341,7 +340,6 @@ export default function App() {
             <p style={{ color: "#cbd5e1", fontSize: "0.95rem", lineHeight: "1.5", marginTop: "15px" }}>Building high-performance digital platforms for clinics.</p>
           </div>
 
-          {/* Rahul Card */}
           <div style={{ background: "rgba(255, 255, 255, 0.05)", border: "1px solid rgba(255, 255, 255, 0.1)", borderRadius: "20px", padding: "30px", width: "100%", maxWidth: "340px", backdropFilter: "blur(15px)" }}>
             <div style={{ width: "80px", height: "80px", background: "linear-gradient(135deg, #1e293b, #0f172a)", borderRadius: "50%", margin: "0 auto 20px", display: "flex", alignItems: "center", justifyContent: "center", border: "2px solid #00f2fe" }}>
               <span style={{ fontSize: "2rem" }}>📈</span>
@@ -351,7 +349,6 @@ export default function App() {
             <p style={{ color: "#cbd5e1", fontSize: "0.95rem", lineHeight: "1.5", marginTop: "15px" }}>Expert in Google rankings and clinic search visibility.</p>
           </div>
 
-          {/* Aman Card */}
           <div style={{ background: "rgba(255, 255, 255, 0.05)", border: "1px solid rgba(255, 255, 255, 0.1)", borderRadius: "20px", padding: "30px", width: "100%", maxWidth: "340px", backdropFilter: "blur(15px)" }}>
             <div style={{ width: "80px", height: "80px", background: "linear-gradient(135deg, #1e293b, #0f172a)", borderRadius: "50%", margin: "0 auto 20px", display: "flex", alignItems: "center", justifyContent: "center", border: "2px solid #00f2fe" }}>
               <span style={{ fontSize: "2rem" }}>🚀</span>
@@ -362,6 +359,7 @@ export default function App() {
           </div>
         </div>
       </section>
+        
                     
       {/* Contact & Socials */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
@@ -444,8 +442,10 @@ export default function App() {
         }
       `}} />
       <div style={{padding: "50px", textAlign: "center"}}>
-  </div>
-</div>
+              </div> 
     </div>
   );
-}
+};
+
+export default App;
+      
