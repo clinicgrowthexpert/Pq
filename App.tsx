@@ -324,48 +324,45 @@ export default function App() {
             </FadeIn>
           ))}
         </div>
+              {/* --- Meet Our Team Section --- */}
+      <section style={{ padding: "60px 20px", textAlign: "center" }}>
+        <h2 style={{ fontSize: "2.2rem", fontWeight: "bold", marginBottom: "10px", color: "#ffffff" }}>Meet Our Team</h2>
+        <p style={{ color: "#94a3b8", marginBottom: "40px", fontSize: "1.1rem" }}>The experts dedicated to your clinic's success</p>
+
+        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "25px" }}>
+          
+          {/* Alok Card */}
+          <div style={{ background: "rgba(255, 255, 255, 0.05)", border: "1px solid rgba(255, 255, 255, 0.1)", borderRadius: "20px", padding: "30px", width: "100%", maxWidth: "340px", backdropFilter: "blur(15px)" }}>
+            <div style={{ width: "80px", height: "80px", background: "linear-gradient(135deg, #1e293b, #0f172a)", borderRadius: "50%", margin: "0 auto 20px", display: "flex", alignItems: "center", justifyContent: "center", border: "2px solid #00f2fe" }}>
+              <span style={{ fontSize: "2rem" }}>👤</span>
+            </div>
+            <h3 style={{ color: "#fff", fontSize: "1.4rem", margin: "0 0 5px" }}>Alok</h3>
+            <p style={{ color: "#00f2fe", fontWeight: "bold", fontSize: "0.85rem", textTransform: "uppercase", letterSpacing: "1px" }}>Founder & Web Developer</p>
+            <p style={{ color: "#cbd5e1", fontSize: "0.95rem", lineHeight: "1.5", marginTop: "15px" }}>Building high-performance digital platforms for clinics.</p>
+          </div>
+
+          {/* Rahul Card */}
+          <div style={{ background: "rgba(255, 255, 255, 0.05)", border: "1px solid rgba(255, 255, 255, 0.1)", borderRadius: "20px", padding: "30px", width: "100%", maxWidth: "340px", backdropFilter: "blur(15px)" }}>
+            <div style={{ width: "80px", height: "80px", background: "linear-gradient(135deg, #1e293b, #0f172a)", borderRadius: "50%", margin: "0 auto 20px", display: "flex", alignItems: "center", justifyContent: "center", border: "2px solid #00f2fe" }}>
+              <span style={{ fontSize: "2rem" }}>📈</span>
+            </div>
+            <h3 style={{ color: "#fff", fontSize: "1.4rem", margin: "0 0 5px" }}>Rahul</h3>
+            <p style={{ color: "#00f2fe", fontWeight: "bold", fontSize: "0.85rem", textTransform: "uppercase", letterSpacing: "1px" }}>SEO Specialist</p>
+            <p style={{ color: "#cbd5e1", fontSize: "0.95rem", lineHeight: "1.5", marginTop: "15px" }}>Expert in Google rankings and clinic search visibility.</p>
+          </div>
+
+          {/* Aman Card */}
+          <div style={{ background: "rgba(255, 255, 255, 0.05)", border: "1px solid rgba(255, 255, 255, 0.1)", borderRadius: "20px", padding: "30px", width: "100%", maxWidth: "340px", backdropFilter: "blur(15px)" }}>
+            <div style={{ width: "80px", height: "80px", background: "linear-gradient(135deg, #1e293b, #0f172a)", borderRadius: "50%", margin: "0 auto 20px", display: "flex", alignItems: "center", justifyContent: "center", border: "2px solid #00f2fe" }}>
+              <span style={{ fontSize: "2rem" }}>🚀</span>
+            </div>
+            <h3 style={{ color: "#fff", fontSize: "1.4rem", margin: "0 0 5px" }}>Aman</h3>
+            <p style={{ color: "#00f2fe", fontWeight: "bold", fontSize: "0.85rem", textTransform: "uppercase", letterSpacing: "1px" }}>Marketing Expert</p>
+            <p style={{ color: "#cbd5e1", fontSize: "0.95rem", lineHeight: "1.5", marginTop: "15px" }}>Lead generation specialist for healthcare providers.</p>
+          </div>
+        </div>
       </section>
-     style={{ padding: "40px 20px", textAlign: "center" }}>
-  <h2 style={{ fontSize: "2.2rem", fontWeight: "bold", marginBottom: "10px", color: "#ffffff" }}>Meet Our Team</h2>
-  <p style={{ color: "#94a3b8", marginBottom: "35px", fontSize: "1.1rem" }}>The experts dedicated to your clinic's success</p>
-
-  <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "25px" }}>
-    
-    {/* Alok Card */}
-    <div style={{ background: "rgba(255, 255, 255, 0.05)", border: "1px solid rgba(255, 255, 255, 0.1)", borderRadius: "20px", padding: "30px", width: "100%", maxWidth: "340px", backdropFilter: "blur(15px)", boxShadow: "0 10px 30px rgba(0,0,0,0.3)" }}>
-      <div style={{ width: "90px", height: "90px", background: "linear-gradient(135deg, #1e293b, #0f172a)", borderRadius: "50%", margin: "0 auto 20px", display: "flex", alignItems: "center", justifyContent: "center", border: "2px solid #00f2fe" }}>
-        <span style={{ fontSize: "2rem" }}>👤</span>
-      </div>
-      <h3 style={{ color: "#fff", fontSize: "1.4rem", margin: "0 0 5px" }}>Alok</h3>
-      <p style={{ color: "#00f2fe", fontWeight: "bold", fontSize: "0.85rem", textTransform: "uppercase", letterSpacing: "1px" }}>Founder & Web Developer</p>
-      <div style={{ height: "1px", background: "rgba(255,255,255,0.1)", margin: "15px 0" }}></div>
-      <p style={{ color: "#cbd5e1", fontSize: "0.95rem", lineHeight: "1.5" }}>Building high-performance digital platforms for clinics.</p>
-    </div>
-
-    {/* Rahul Card */}
-    <div style={{ background: "rgba(255, 255, 255, 0.05)", border: "1px solid rgba(255, 255, 255, 0.1)", borderRadius: "20px", padding: "30px", width: "100%", maxWidth: "340px", backdropFilter: "blur(15px)", boxShadow: "0 10px 30px rgba(0,0,0,0.3)" }}>
-      <div style={{ width: "90px", height: "90px", background: "linear-gradient(135deg, #1e293b, #0f172a)", borderRadius: "50%", margin: "0 auto 20px", display: "flex", alignItems: "center", justifyContent: "center", border: "2px solid #00f2fe" }}>
-        <span style={{ fontSize: "2rem" }}>📈</span>
-      </div>
-      <h3 style={{ color: "#fff", fontSize: "1.4rem", margin: "0 0 5px" }}>Rahul</h3>
-      <p style={{ color: "#00f2fe", fontWeight: "bold", fontSize: "0.85rem", textTransform: "uppercase", letterSpacing: "1px" }}>SEO Specialist</p>
-      <div style={{ height: "1px", background: "rgba(255,255,255,0.1)", margin: "15px 0" }}></div>
-      <p style={{ color: "#cbd5e1", fontSize: "0.95rem", lineHeight: "1.5" }}>Expert in Google rankings and clinic search visibility.</p>
-    </div>
-
-    {/* Aman Card */}
-    <div style={{ background: "rgba(255, 255, 255, 0.05)", border: "1px solid rgba(255, 255, 255, 0.1)", borderRadius: "20px", padding: "30px", width: "100%", maxWidth: "340px", backdropFilter: "blur(15px)", boxShadow: "0 10px 30px rgba(0,0,0,0.3)" }}>
-      <div style={{ width: "90px", height: "90px", background: "linear-gradient(135deg, #1e293b, #0f172a)", borderRadius: "50%", margin: "0 auto 20px", display: "flex", alignItems: "center", justifyContent: "center", border: "2px solid #00f2fe" }}>
-        <span style={{ fontSize: "2rem" }}>🚀</span>
-      </div>
-      <h3 style={{ color: "#fff", fontSize: "1.4rem", margin: "0 0 5px" }}>Aman</h3>
-      <p style={{ color: "#00f2fe", fontWeight: "bold", fontSize: "0.85rem", textTransform: "uppercase", letterSpacing: "1px" }}>Marketing Expert</p>
-      <div style={{ height: "1px", background: "rgba(255,255,255,0.1)", margin: "15px 0" }}></div>
-      <p style={{ color: "#cbd5e1", fontSize: "0.95rem", lineHeight: "1.5" }}>Lead generation specialist for healthcare providers.</p>
-    </div>
-
-  </div>
-</section>
+                    
       {/* Contact & Socials */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="glass-card rounded-3xl p-8 md:p-16 text-center">
