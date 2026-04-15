@@ -324,6 +324,7 @@ export default function App() {
             </FadeIn>
           ))}
         </div>
+        
         {/* --- Meet Our Team Section --- */}
       <section style={{ padding: "60px 20px", textAlign: "center" }}>
         <h2 style={{ fontSize: "2.2rem", fontWeight: "bold", marginBottom: "10px", color: "#ffffff" }}>Meet Our Team</h2>
