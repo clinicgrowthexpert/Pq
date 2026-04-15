@@ -367,28 +367,8 @@ export default function App() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t border-white/10 py-8 text-center text-gray-400">
-        <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
-            <img src="/logo.png" alt="Clinic Growth Expert Logo" className="h-10 w-10 rounded-lg object-contain bg-white p-1 shadow-lg ring-1 ring-white/10" />
-            <span className="font-semibold text-white">Clinic Growth Expert</span>
-          </div>
-          <p>© {new Date().getFullYear()} Clinic Growth Expert. All rights reserved.</p>
-          <div className="flex gap-4">
-            <a href="https://www.instagram.com/clinicgrowthexpertofficial?igsh=MW5iYWhjNjM1Y2Nkcw==" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">
-              <Instagram className="w-5 h-5" />
-            </a>
-            <a href="https://www.facebook.com/share/1CULAQ3rD4/" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">
-              <Facebook className="w-5 h-5" />
-            </a>
-            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">
-              <MessageCircle className="w-5 h-5" />
-            </a>
-          </div>
-        </div>
-      </footer>
-
+  
+      
       {/* Floating WhatsApp Button */}
       <a
         href={WHATSAPP_LINK}
@@ -433,6 +413,28 @@ export default function App() {
       <p>Marketing Expert</p>
       <p>Lead generation specialist</p>
     </div>
+    {/* Footer */}
+    <footer className="border-t border-white/10 py-8 text-center text-gray-400">
+        <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="flex items-center gap-3">
+            <img src="/logo.png" alt="Clinic Growth Expert Logo" className="h-10 w-10 rounded-lg object-contain bg-white p-1 shadow-lg ring-1 ring-white/10" />
+            <span className="font-semibold text-white">Clinic Growth Expert</span>
+          </div>
+          <p>© {new Date().getFullYear()} Clinic Growth Expert. All rights reserved.</p>
+          <div className="flex gap-4">
+            <a href="https://www.instagram.com/clinicgrowthexpertofficial?igsh=MW5iYWhjNjM1Y2Nkcw==" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">
+              <Instagram className="w-5 h-5" />
+            </a>
+            <a href="https://www.facebook.com/share/1CULAQ3rD4/" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">
+              <Facebook className="w-5 h-5" />
+            </a>
+            <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">
+              <MessageCircle className="w-5 h-5" />
+            </a>
+          </div>
+        </div>
+      </footer>
+    
 
   </div>
 </div>
