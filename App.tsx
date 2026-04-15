@@ -407,6 +407,35 @@ export default function App() {
           100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
         }
       `}} />
+      <div style={{padding: "50px", textAlign: "center"}}>
+  <h2>Meet Our Team</h2>
+  <p>Our experts dedicated to growing your business</p>
+
+  <div style={{display: "flex", justifyContent: "center", gap: "20px", flexWrap: "wrap"}}>
+
+    <div style={{background: "#0f172a", padding: "20px", borderRadius: "12px", width: "250px"}}>
+      <img src="https://via.placeholder.com/100" style={{borderRadius: "50%"}} />
+      <h3>Alok</h3>
+      <p>Founder & Web Developer</p>
+      <p>Helping clinics grow online</p>
+    </div>
+
+    <div style={{background: "#0f172a", padding: "20px", borderRadius: "12px", width: "250px"}}>
+      <img src="https://via.placeholder.com/100" style={{borderRadius: "50%"}} />
+      <h3>Rahul</h3>
+      <p>SEO Specialist</p>
+      <p>Google ranking expert</p>
+    </div>
+
+    <div style={{background: "#0f172a", padding: "20px", borderRadius: "12px", width: "250px"}}>
+      <img src="https://via.placeholder.com/100" style={{borderRadius: "50%"}} />
+      <h3>Aman</h3>
+      <p>Marketing Expert</p>
+      <p>Lead generation specialist</p>
+    </div>
+
+  </div>
+</div>
     </div>
   );
 }
