@@ -388,18 +388,4 @@ export default function App() {
               Chat on WhatsApp
             </a>
 
-            <div className="flex justify-center gap-6">
-              <a href="https://www.instagram.com/clinicgrowthexpertofficial?igsh=MW5iYWhjNjM1Y2Nkcw==" target="_blank" rel="noopener noreferrer" className="p-4 glass-card rounded-full hover:bg-white/10 transition-colors group">
-                <Instagram className="w-6 h-6 group-hover:text-cyan-400 transition-colors" />
-              </a>
-              <a href="https://www.facebook.com/share/1CULAQ3rD4/" target="_blank" rel="noopener noreferrer" className="p-4 glass-card rounded-full hover:bg-white/10 transition-colors group">
-                <Facebook className="w-6 h-6 group-hover:text-cyan-400 transition-colors" />
-              </a>
-              <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="p-4 glass-card rounded-full hover:bg-white/10 transition-colors group">
-                <MessageCircle className="w-6 h-6 group-hover:text-cyan-400 transition-colors" />
-              </a>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
-                              
+            <div className=
