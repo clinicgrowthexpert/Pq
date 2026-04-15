@@ -1,7 +1,7 @@
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
-j */
+ */
 
 import React from 'react';
 import { motion } from 'motion/react';
@@ -150,7 +150,7 @@ export default function App() {
           <FadeIn delay={0.1}>
             <div className="glass-card p-8 rounded-3xl">
               <h3 className="text-2xl font-semibold mb-2">Basic</h3>
-              <div className="text-4xl font-bold mb-6">₹4,999</div>
+              <div className="text-4xl font-bold mb-6">â‚¹4,999</div>
               <ul className="space-y-4 mb-8">
                 <li className="flex items-center gap-3 text-gray-300">
                   <CheckCircle2 className="w-5 h-5 text-cyan-400 shrink-0" />
@@ -165,7 +165,7 @@ export default function App() {
                   <span>Mobile Optimized</span>
                 </li>
               </ul>
-              <a href={`${WHATSAPP_LINK}?text=${encodeURIComponent("Hi, I am interested in the Basic Plan (₹4,999) for my clinic.")}`} target="_blank" rel="noopener noreferrer" className="block w-full py-3 px-6 rounded-full glass-card text-center font-medium hover:bg-white/10 transition-colors">
+              <a href={`${WHATSAPP_LINK}?text=${encodeURIComponent("Hi, I am interested in the Basic Plan (â‚¹4,999) for my clinic.")}`} target="_blank" rel="noopener noreferrer" className="block w-full py-3 px-6 rounded-full glass-card text-center font-medium hover:bg-white/10 transition-colors">
                 Get Started
               </a>
             </div>
@@ -175,11 +175,11 @@ export default function App() {
           <FadeIn delay={0.2}>
             <div className="glass-card p-8 rounded-3xl border-cyan-500/50 relative transform md:-translate-y-4" style={{ boxShadow: '0 0 40px rgba(34, 211, 238, 0.15)' }}>
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-cyan-500 to-teal-500 px-4 py-1 rounded-full text-sm font-bold flex items-center gap-1 whitespace-nowrap">
-                Most Popular 🔥
+                Most Popular ðŸ”¥
               </div>
               <h3 className="text-2xl font-semibold mb-2">Standard</h3>
               <p className="text-cyan-300 text-sm mb-4">Best Value for Clinics</p>
-              <div className="text-4xl font-bold mb-6">₹9,999</div>
+              <div className="text-4xl font-bold mb-6">â‚¹9,999</div>
               <ul className="space-y-4 mb-8">
                 <li className="flex items-center gap-3 text-gray-300">
                   <CheckCircle2 className="w-5 h-5 text-cyan-400 shrink-0" />
@@ -198,7 +198,7 @@ export default function App() {
                   <span>WhatsApp Integration</span>
                 </li>
               </ul>
-              <a href={`${WHATSAPP_LINK}?text=${encodeURIComponent("Hi, I am interested in the Standard Plan (₹9,999) for my clinic.")}`} target="_blank" rel="noopener noreferrer" className="glow-button block w-full py-3 px-6 rounded-full bg-gradient-to-r from-cyan-500 to-teal-500 text-center font-semibold">
+              <a href={`${WHATSAPP_LINK}?text=${encodeURIComponent("Hi, I am interested in the Standard Plan (â‚¹9,999) for my clinic.")}`} target="_blank" rel="noopener noreferrer" className="glow-button block w-full py-3 px-6 rounded-full bg-gradient-to-r from-cyan-500 to-teal-500 text-center font-semibold">
                 Get Started
               </a>
             </div>
@@ -208,7 +208,7 @@ export default function App() {
           <FadeIn delay={0.3}>
             <div className="glass-card p-8 rounded-3xl">
               <h3 className="text-2xl font-semibold mb-2">Premium</h3>
-              <div className="text-4xl font-bold mb-6">₹14,999</div>
+              <div className="text-4xl font-bold mb-6">â‚¹14,999</div>
               <ul className="space-y-4 mb-8">
                 <li className="flex items-center gap-3 text-gray-300">
                   <CheckCircle2 className="w-5 h-5 text-cyan-400 shrink-0" />
@@ -227,7 +227,7 @@ export default function App() {
                   <span>Marketing Automation</span>
                 </li>
               </ul>
-              <a href={`${WHATSAPP_LINK}?text=${encodeURIComponent("Hi, I am interested in the Premium Plan (₹14,999) for my clinic.")}`} target="_blank" rel="noopener noreferrer" className="block w-full py-3 px-6 rounded-full glass-card text-center font-medium hover:bg-white/10 transition-colors">
+              <a href={`${WHATSAPP_LINK}?text=${encodeURIComponent("Hi, I am interested in the Premium Plan (â‚¹14,999) for my clinic.")}`} target="_blank" rel="noopener noreferrer" className="block w-full py-3 px-6 rounded-full glass-card text-center font-medium hover:bg-white/10 transition-colors">
                 Get Started
               </a>
             </div>
@@ -286,6 +286,58 @@ export default function App() {
         </div>
       </section>
 
+      {/* Team Section */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <FadeIn>
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-5xl font-bold mb-4">Meet Our Team</h2>
+            <p className="text-gray-400 text-lg">The experts behind your clinic's growth.</p>
+          </div>
+        </FadeIn>
+
+        <div className="grid md:grid-cols-3 gap-8">
+          {[
+            {
+              name: "Alok Shukla",
+              role: "Founder & Growth Expert",
+              phone: "+91 8766279595",
+              image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=256&auto=format&fit=crop"
+            },
+            {
+              name: "Priya Sharma",
+              role: "Lead Web Developer",
+              phone: "+91 9876543210",
+              image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=256&auto=format&fit=crop"
+            },
+            {
+              name: "Rahul Verma",
+              role: "SEO Specialist",
+              phone: "+91 9876543211",
+              image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=256&auto=format&fit=crop"
+            }
+          ].map((member, i) => (
+            <FadeIn key={i} delay={i * 0.2}>
+              <div className="glass-card p-8 rounded-3xl flex flex-col items-center text-center hover:-translate-y-2 transition-transform duration-300">
+                <div className="w-24 h-24 rounded-full overflow-hidden mb-6 ring-4 ring-cyan-500/30">
+                  <img 
+                    src={member.image} 
+                    alt={member.name} 
+                    className="w-full h-full object-cover" 
+                    referrerPolicy="no-referrer"
+                  />
+                </div>
+                <h3 className="text-2xl font-semibold mb-1">{member.name}</h3>
+                <p className="text-cyan-400 font-medium mb-4">{member.role}</p>
+                <a href={`tel:${member.phone.replace(/\s+/g, '')}`} className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors">
+                  <Phone className="w-4 h-4" />
+                  {member.phone}
+                </a>
+              </div>
+            </FadeIn>
+          ))}
+        </div>
+      </section>
+
       {/* Testimonials Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <FadeIn>
@@ -324,44 +376,8 @@ export default function App() {
             </FadeIn>
           ))}
         </div>
-        
-        {/* --- Meet Our Team Section --- */}
-      <section style={{ padding: "60px 20px", textAlign: "center" }}>
-        <h2 style={{ fontSize: "2.2rem", fontWeight: "bold", marginBottom: "10px", color: "#ffffff" }}>Meet Our Team</h2>
-        <p style={{ color: "#94a3b8", marginBottom: "40px", fontSize: "1.1rem" }}>The experts dedicated to your clinic's success</p>
-
-        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "25px" }}>
-          
-          <div style={{ background: "rgba(255, 255, 255, 0.05)", border: "1px solid rgba(255, 255, 255, 0.1)", borderRadius: "20px", padding: "30px", width: "100%", maxWidth: "340px", backdropFilter: "blur(15px)" }}>
-            <div style={{ width: "80px", height: "80px", background: "linear-gradient(135deg, #1e293b, #0f172a)", borderRadius: "50%", margin: "0 auto 20px", display: "flex", alignItems: "center", justifyContent: "center", border: "2px solid #00f2fe" }}>
-              <span style={{ fontSize: "2rem" }}>👤</span>
-            </div>
-            <h3 style={{ color: "#fff", fontSize: "1.4rem", margin: "0 0 5px" }}>Alok</h3>
-            <p style={{ color: "#00f2fe", fontWeight: "bold", fontSize: "0.85rem", textTransform: "uppercase", letterSpacing: "1px" }}>Founder & Web Developer</p>
-            <p style={{ color: "#cbd5e1", fontSize: "0.95rem", lineHeight: "1.5", marginTop: "15px" }}>Building high-performance digital platforms for clinics.</p>
-          </div>
-
-          <div style={{ background: "rgba(255, 255, 255, 0.05)", border: "1px solid rgba(255, 255, 255, 0.1)", borderRadius: "20px", padding: "30px", width: "100%", maxWidth: "340px", backdropFilter: "blur(15px)" }}>
-            <div style={{ width: "80px", height: "80px", background: "linear-gradient(135deg, #1e293b, #0f172a)", borderRadius: "50%", margin: "0 auto 20px", display: "flex", alignItems: "center", justifyContent: "center", border: "2px solid #00f2fe" }}>
-              <span style={{ fontSize: "2rem" }}>📈</span>
-            </div>
-            <h3 style={{ color: "#fff", fontSize: "1.4rem", margin: "0 0 5px" }}>Rahul</h3>
-            <p style={{ color: "#00f2fe", fontWeight: "bold", fontSize: "0.85rem", textTransform: "uppercase", letterSpacing: "1px" }}>SEO Specialist</p>
-            <p style={{ color: "#cbd5e1", fontSize: "0.95rem", lineHeight: "1.5", marginTop: "15px" }}>Expert in Google rankings and clinic search visibility.</p>
-          </div>
-
-          <div style={{ background: "rgba(255, 255, 255, 0.05)", border: "1px solid rgba(255, 255, 255, 0.1)", borderRadius: "20px", padding: "30px", width: "100%", maxWidth: "340px", backdropFilter: "blur(15px)" }}>
-            <div style={{ width: "80px", height: "80px", background: "linear-gradient(135deg, #1e293b, #0f172a)", borderRadius: "50%", margin: "0 auto 20px", display: "flex", alignItems: "center", justifyContent: "center", border: "2px solid #00f2fe" }}>
-              <span style={{ fontSize: "2rem" }}>🚀</span>
-            </div>
-            <h3 style={{ color: "#fff", fontSize: "1.4rem", margin: "0 0 5px" }}>Aman</h3>
-            <p style={{ color: "#00f2fe", fontWeight: "bold", fontSize: "0.85rem", textTransform: "uppercase", letterSpacing: "1px" }}>Marketing Expert</p>
-            <p style={{ color: "#cbd5e1", fontSize: "0.95rem", lineHeight: "1.5", marginTop: "15px" }}>Lead generation specialist for healthcare providers.</p>
-          </div>
-        </div>
       </section>
-        
-                    
+
       {/* Contact & Socials */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="glass-card rounded-3xl p-8 md:p-16 text-center">
@@ -388,4 +404,21 @@ export default function App() {
               Chat on WhatsApp
             </a>
 
-            <div className=
+            <div className="flex justify-center gap-6">
+              <a href="https://www.instagram.com/clinicgrowthexpertofficial?igsh=MW5iYWhjNjM1Y2Nkcw==" target="_blank" rel="noopener noreferrer" className="p-4 glass-card rounded-full hover:bg-white/10 transition-colors group">
+                <Instagram className="w-6 h-6 group-hover:text-cyan-400 transition-colors" />
+              </a>
+              <a href="https://www.facebook.com/share/1CULAQ3rD4/" target="_blank" rel="noopener noreferrer" className="p-4 glass-card rounded-full hover:bg-white/10 transition-colors group">
+                <Facebook className="w-6 h-6 group-hover:text-cyan-400 transition-colors" />
+              </a>
+              <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="p-4 glass-card rounded-full hover:bg-white/10 transition-colors group">
+                <MessageCircle className="w-6 h-6 group-hover:text-cyan-400 transition-colors" />
+              </a>
+            </div>
+          </FadeIn>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="border-t border-white/10 py-8 text-center text-gray-400">
+        <div cla
