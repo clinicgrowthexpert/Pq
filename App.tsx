@@ -420,8 +420,7 @@ export default function App() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-white/10 py-8 text-center text-gray-400">
-                <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
+              <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <img src="/logo.png" alt="Clinic Growth Expert Logo" className="h-10 w-10 rounded-lg object-contain bg-white p-1" />
             <span className="font-semibold text-white">Clinic Growth Expert</span>
@@ -434,4 +433,3 @@ export default function App() {
 };
 
 export default App;
-
