@@ -366,28 +366,6 @@ export default function App() {
           </FadeIn>
         </div>
       </section>
-
-  
-      
-      {/* Floating WhatsApp Button */}
-      <a
-        href={WHATSAPP_LINK}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform flex items-center justify-center"
-        style={{ animation: 'pulse 2s infinite' }}
-      >
-        <MessageCircle className="w-8 h-8" />
-      </a>
-      
-      <style dangerouslySetInnerHTML={{__html: `
-        @keyframes pulse {
-          0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
-          70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
-          100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
-        }
-      `}} />
-      <div style={{padding: "50px", textAlign: "center"}}>
   <h2>Meet Our Team</h2>
   <p>Our experts dedicated to growing your business</p>
 
@@ -434,8 +412,25 @@ export default function App() {
           </div>
         </div>
       </footer>
-    
-
+    {/* Floating WhatsApp Button */}
+      <a
+        href={WHATSAPP_LINK}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform flex items-center justify-center"
+        style={{ animation: 'pulse 2s infinite' }}
+      >
+        <MessageCircle className="w-8 h-8" />
+      </a>
+      
+      <style dangerouslySetInnerHTML={{__html: `
+        @keyframes pulse {
+          0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+          70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+          100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+        }
+      `}} />
+      <div style={{padding: "50px", textAlign: "center"}}>
   </div>
 </div>
     </div>
